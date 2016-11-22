@@ -5,7 +5,7 @@ This module is a short introduction to the [National Center for Biotechnology In
 An outline for the module is below:
 
   * [What is the NCBI?](#What-is-the-NCBI?)
-  * What is BLAST?
+  * [What is BLAST?](#What-is-BLAST?)
   * How does BLAST work?
   * For what purposes would you use BLAST?
   * Let's BLAST something!
@@ -21,7 +21,7 @@ The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov
 
 ***
 
-### NCBI Databases
+#### NCBI Databases
 
  >Understanding nature's mute but elegant language of living cells is the quest of modern molecular biology. From an alphabet of only four letters representing the chemical subunits of DNA emerges a syntax of life processes whose most complex expression is man. The unraveling and use of this "alphabet" to form new "words and phrases" is a central focus of the field of molecular biology. The staggering volume of molecular data and its cryptic and subtle patterns have led to an absolute requirement for computerized databases and analysis tools. - *from the NCBI mission statement*
 
@@ -109,7 +109,7 @@ From James Watson, Nobel laureate and co-discoverer of the structure of DNA:
 
 ***
 
-### NCBI Tools
+#### NCBI Tools
 
 <p align="center">
 <kbd>
@@ -126,4 +126,4 @@ The tools available on the NCBI website provide users with a wide variety of way
 
 ***
 
-
+## What is BLAST?
