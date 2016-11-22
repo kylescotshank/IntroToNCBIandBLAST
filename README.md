@@ -25,7 +25,6 @@ The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov
 
  >Understanding nature's mute but elegant language of living cells is the quest of modern molecular biology. From an alphabet of only four letters representing the chemical subunits of DNA emerges a syntax of life processes whose most complex expression is man. The unraveling and use of this "alphabet" to form new "words and phrases" is a central focus of the field of molecular biology. The staggering volume of molecular data and its cryptic and subtle patterns have led to an absolute requirement for computerized databases and analysis tools. - *from the NCBI mission statement*
 
- ***
 
 <p align="center">
 <kbd>
@@ -76,7 +75,6 @@ First, navigate to [Entrez](https://www.ncbi.nlm.nih.gov/gquery/) and search for
 
 **NOTE**: If you'd like to search specifically for a gene symbol you can use the search term **POMC[sym]**.
 
-***
 
 Next, look for the entry in the query results that is for the gene found in *Homo sapiens*. When you find it, click the gene symbol.
 
@@ -86,7 +84,6 @@ Next, look for the entry in the query results that is for the gene found in *Hom
  </kbd>
  </p>
 
-***
 
 This page returns a large amount of information about the **POMC** gene. 
 
@@ -96,7 +93,6 @@ This page returns a large amount of information about the **POMC** gene.
  </kbd>
  </p>
 
-***
 
 Importantly, many genes have thorough summaries that can provide the user with a quick overview of the scientific knowledge of the gene in question. Upon inspecting the information available in the summary for **POMC**, we can see that mutations in this gene have been identified with the following phenotypic variations in human beings:
   
