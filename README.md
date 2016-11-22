@@ -60,9 +60,9 @@ As shown above: the query returend a rich selection of results that could be use
 
 ***
 
-### CHALLENGE
+## CHALLENGE #1
 
-Search for the gene symbol **POMC**, look up information about the gene in *Homo sapiens*, and report three known mutations associated with this particular gene. 
+Search for the gene symbol **POMC**, look up information about the gene in *Homo sapiens*, and report three known phenotypic variations associated with this particular gene. 
 
 ***
 
@@ -74,10 +74,39 @@ First, navigate to [Entrez](https://www.ncbi.nlm.nih.gov/gquery/) and search for
  </kbd>
  </p>
 
-**NOTE**: If you'd like to search specifically for a symbol, instead of just a string of characters, you can use the search term **POMC[sym]**.
+**NOTE**: If you'd like to search specifically for a gene symbol you can use the search term **POMC[sym]**.
 
 ***
 
+Next, look for the entry in the query results that is for the gene found in *Homo sapiens*. When you find it, click the gene symbol.
+
+<p align="center">
+<kbd>
+  <img src="EntrezSearchExampleTwo.png"/>
+ </kbd>
+ </p>
+
+***
+
+This page returns a large amount of information about the **POMC** gene. 
+
+<p align="center">
+<kbd>
+  <img src="EntrezSearchExampleThree.png"/>
+ </kbd>
+ </p>
+
+***
+
+Importantly, many genes have thorough summaries that can provide the user with a quick overview of the scientific knowledge of the gene in question. Upon inspecting the information available in the summary for **POMC**, we can see that mutations in this gene have been identified with the following phenotypic variations in human beings:
+  
+  * Early onset obesity
+  * Adrenal insufficiency
+  * Read hair
+
+***
+
+### NCBI Tools
 
 
 
