@@ -33,7 +33,7 @@ The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov
  </kbd>
  </p>
  <p align="center"
-  <em>The Explosion of Sequencing Data - *National Library of Medicine*</em>
+  <em>The Explosion of Sequencing Data - <i>National Library of Medicine</i></em>
 </p>
 
 ***
