@@ -57,13 +57,27 @@ These different databases are all linked together by the [Entrez](https://en.wik
  </p>
 
 As shown above: the query returend a rich selection of results that could be used to answer a variety of different scientific questions. If we were interested in DNA or RNA sequences, we would find them in the **Genome** database. If we were looking for human variations of the gene, we'd be able to find this in the **ClinVar** database, and so on. This kind of information retrieval is only possible because of the unified structures that exist between the databases and the Entrez search engine. 
+
 ***
 
-### Challenge
+### CHALLENGE
 
 Search for the gene symbol **POMC**, look up information about the gene in *Homo sapiens*, and report three known mutations associated with this particular gene. 
 
 ***
+
+First, navigate to [Entrez](https://www.ncbi.nlm.nih.gov/gquery/) and search for the gene symbol **POMC**. Then click "Search". When your results are returned, click "Gene".
+
+<p align="center">
+<kbd>
+  <img src="EntrezSearchExampleOne.png"/>
+ </kbd>
+ </p>
+
+**NOTE**: If you'd like to search specifically for a symbol, instead of just a string of characters, you can use the search term **POMC[sym]**.
+
+***
+
 
 
 
