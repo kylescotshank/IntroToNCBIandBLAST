@@ -59,7 +59,7 @@ As shown above: the query returend a rich selection of results that could be use
 
 ***
 
-## CHALLENGE #1
+## CHALLENGE \#1
 
 Search for the gene symbol **POMC**, look up information about the gene in *Homo sapiens*, and report three known phenotypic variations associated with this particular gene. 
 
