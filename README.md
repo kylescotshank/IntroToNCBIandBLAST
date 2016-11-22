@@ -4,8 +4,8 @@ This module is a short introduction to the [National Center for Biotechnology In
 
 An outline for the module is below:
 
-  * [What is the NCBI?](#what-is-the-ncbi?)
-  * [What is BLAST?](#Wwat-is-blast?)
+  * [What is the NCBI?](#what-is-the-ncbi)
+  * [What is BLAST?](#what-is-blast)
   * How does BLAST work?
   * For what purposes would you use BLAST?
   * Let's BLAST something!
