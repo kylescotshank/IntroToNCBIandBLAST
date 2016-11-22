@@ -52,8 +52,8 @@ These different databases are all linked together by the [Entrez](https://en.wik
 <p align="center">
 <kbd>
   <img src="EntrezExample.png"/>
- </kbd>
- </p>
+</kbd>
+</p>
 
 As shown above: the query returend a rich selection of results that could be used to answer a variety of different scientific questions. If we were interested in DNA or RNA sequences, we would find them in the **Genome** database. If we were looking for human variations of the gene, we'd be able to find this in the **ClinVar** database, and so on. This kind of information retrieval is only possible because of the unified structures that exist between the databases and the Entrez search engine. 
 
@@ -70,8 +70,8 @@ First, navigate to [Entrez](https://www.ncbi.nlm.nih.gov/gquery/) and search for
 <p align="center">
 <kbd>
   <img src="EntrezSearchExampleOne.png"/>
- </kbd>
- </p>
+</kbd>
+</p>
 
 **NOTE**: If you'd like to search specifically for a gene symbol you can use the search term **POMC[sym]**.
 
@@ -81,8 +81,8 @@ Next, look for the entry in the query results that is for the gene found in *Hom
 <p align="center">
 <kbd>
   <img src="EntrezSearchExampleTwo.png"/>
- </kbd>
- </p>
+</kbd>
+</p>
 
 
 This page returns a large amount of information about the **POMC** gene. 
@@ -90,8 +90,8 @@ This page returns a large amount of information about the **POMC** gene.
 <p align="center">
 <kbd>
   <img src="EntrezSearchExampleThree.png"/>
- </kbd>
- </p>
+</kbd>
+</p>
 
 
 Importantly, many genes have thorough summaries that can provide the user with a quick overview of the scientific knowledge of the gene in question. Upon inspecting the information available in the summary for **POMC**, we can see that mutations in this gene have been identified with the following phenotypic variations in human beings:
@@ -114,9 +114,9 @@ From James Watson, Nobel laureate and co-discoverer of the structure of DNA:
 <p align="center">
 <kbd>
   <img src="Tools.png"/>
- </kbd>
- </p>
- <p align="center"
+</kbd>
+</p>
+<p align="center"
   <em>The painful reality of some tools in bioinformatics - <i>XKCD</i></em>
 </p>
 
