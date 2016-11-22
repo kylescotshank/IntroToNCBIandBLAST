@@ -117,7 +117,7 @@ From James Watson, Nobel laureate and co-discoverer of the structure of DNA:
 </kbd>
 </p>
 <p align="center"
-  <em>The painful reality of some tools in bioinformatics - <i>XKCD</i></em>
+  <em>The painful reality of some bioinformatics tools.- <i>XKCD</i></em>
 </p>
 
 ***
