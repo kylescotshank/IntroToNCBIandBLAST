@@ -48,7 +48,7 @@ Though there are many different databases avialable for users, Some of the more 
 
 A full list of the available resources and tools may be found [here](https://www.ncbi.nlm.nih.gov/guide/all/).
 
-These databases are all linked by the [Entrez](https://en.wikipedia.org/wiki/Entrez) search engine. Entrez allows users to search many different discrete databases at the same time. For example: if we search the string "cftr" (a gene responsible for encoding a protein important to the pathology of cystic fibrosis in *Homo sapiens*):
+These different databases are all linked together by the [Entrez](https://en.wikipedia.org/wiki/Entrez) search engine. Entrez (French for "Come in") allows users to search many of the different databases hosted by NCBI all at the same time, thus allowing for simple queries to produce very wide-ranging results. As an example: if we search the string **CFTR** (a gene responsible for encoding a protein important to the pathology of cystic fibrosis in *Homo sapiens*):
 
 <p align="center">
 <kbd>
@@ -56,8 +56,15 @@ These databases are all linked by the [Entrez](https://en.wikipedia.org/wiki/Ent
  </kbd>
  </p>
 
+As shown above: the query returend a rich selection of results that could be used to answer a variety of different scientific questions. If we were interested in DNA or RNA sequences, we would find them in the **Genome** database. If we were looking for human variations of the gene, we'd be able to find this in the **ClinVar** database, and so on. This kind of information retrieval is only possible because of the unified structures that exist between the databases and the Entrez search engine. 
+***
+
+### Challenge
+
+Search for the gene symbol **POMC**, look up information about the gene in *Homo sapiens*, and report three known mutations associated with this particular gene. 
 
 ***
+
 
 
 
