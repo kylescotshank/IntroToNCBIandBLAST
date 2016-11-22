@@ -15,7 +15,7 @@ An outline for the module is below:
 
 ***
 
-## What is the NCBI? 
+##What is the NCBI? 
 
 The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov) is an important component of the [National Library of Medicine](https://www.nlm.nih.gov) that has two broadly defined functions. First, the NCBI is tasked with hosting and maintaining a series of databases relevant to biotechnology and biomedicine. Secondly, the NCBI also serves to both curate and develop a wide variety of bioinformatics tools and services for researchers to use. We will take a better look at these two functions below. For further reading, a good overview of the history of the NCBI can be found [here](https://www.ncbi.nlm.nih.gov/books/NBK148949/). 
 
@@ -126,4 +126,4 @@ The tools available on the NCBI website provide users with a wide variety of way
 
 ***
 
-## What is BLAST?
+##What is BLAST?
