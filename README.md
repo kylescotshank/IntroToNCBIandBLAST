@@ -29,6 +29,8 @@ The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov
 
 <p align="center">
   <img src="https://github.com/kylescotshank/IntroToNCBIandBLAST/blob/master/SequencingData.png"/>
+ </p>
+ <p>
   <em>The Explosion of Sequencing Data</em>
 </p>
 
