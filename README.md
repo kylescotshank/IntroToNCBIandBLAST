@@ -25,9 +25,14 @@ The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov
 
  >Understanding nature's mute but elegant language of living cells is the quest of modern molecular biology. From an alphabet of only four letters representing the chemical subunits of DNA emerges a syntax of life processes whose most complex expression is man. The unraveling and use of this "alphabet" to form new "words and phrases" is a central focus of the field of molecular biology. The staggering volume of molecular data and its cryptic and subtle patterns have led to an absolute requirement for computerized databases and analysis tools. - *from the NCBI mission statement*
 
+ ***
+
 <p align="center">
   <img src="https://github.com/kylescotshank/IntroToNCBIandBLAST/blob/master/SequencingData.png"/>
+  <em>The Explosion of Sequencing Data</em>
 </p>
+
+***
 
 With the rapid expansion of the *availabilit* of biological data in the Twentieth Century came the need for tools and software to both structure and query this data. 
 
