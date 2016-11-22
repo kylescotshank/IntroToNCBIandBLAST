@@ -17,12 +17,17 @@ An outline for the module is below:
 
 ## What is the NCBI? 
 
-The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov) is an important component of the [National Library of Medicine](https://www.nlm.nih.gov) that serves two broad functions. First, the NCBI is tasked with hosting and maintaining a series of databases relevant to biotechnology and biomedicine. Secondly, the NCBI also serves to both curate and develop a wide variety of bioinformatics tools and services for researchers to use.  
+The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov) is an important component of the [National Library of Medicine](https://www.nlm.nih.gov) that serves two broad functions. First, the NCBI is tasked with hosting and maintaining a series of databases relevant to biotechnology and biomedicine. Secondly, the NCBI also serves to both curate and develop a wide variety of bioinformatics tools and services for researchers to use.  For those interested in the overall development of the NCBI, a good overview of its history can be found [here](https://www.ncbi.nlm.nih.gov/books/NBK148949/). 
+
+***
 
 ### NCBI Databases
 
- >Understanding nature's mute but elegant language of living cells is the quest of modern molecular biology. From an alphabet of only four letters representing the chemical subunits of DNA emerges a syntax of life processes whose most complex expression is man. The unraveling and use of this "alphabet" to form new "words and phrases" is a central focus of the field of molecular biology. The staggering volume of molecular data and its cryptic and subtle patterns have led to an absolute requirement for computerized databases and analysis tools. The challenge is in finding new approaches to deal with the volume and complexity of data and in providing researchers with better access to analysis and computing tools to advance understanding of our genetic legacy and its role in health and disease. - *from the NCBI mission statement*
+ >Understanding nature's mute but elegant language of living cells is the quest of modern molecular biology. From an alphabet of only four letters representing the chemical subunits of DNA emerges a syntax of life processes whose most complex expression is man. The unraveling and use of this "alphabet" to form new "words and phrases" is a central focus of the field of molecular biology. The staggering volume of molecular data and its cryptic and subtle patterns have led to an absolute requirement for computerized databases and analysis tools. - *from the NCBI mission statement*
 
+![The Explosion of Sequencing Data](SequencingData)
+
+With the rapid expansion of the *availabilit* of biological data in the Twentieth Century came the need for tools and software to both structure and query this data. 
 
 Some of the more well-known databases include:
 
