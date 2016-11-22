@@ -37,7 +37,7 @@ The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov
 
 ***
 
-With the rapid expansion of the *availability* of biological data in the Twentieth Century came the need for tools and software to both structure and query this data. This need brought together computer scientists, biologists, and government officials to help design and launch a variety of databases and protocols to assist researchers in both curating new knowledge and validating the old. For further reading, an interesting overview of the general history of bioinformatics (as related to computational structures) can be found [here](http://web.bf.uni-lj.si/bi/biokemija/bioinfo/2007/Material/Uvod1.pdf). 
+With the rapid expansion of the availability of biological data in the Twentieth Century came the need for tools and software to both structure and query this data. This need brought together computer scientists, biologists, and government officials to help design and launch a variety of databases and protocols to assist researchers in both curating new knowledge and validating the old. For further reading, an interesting overview of the general history of bioinformatics (as related to computational structures) can be found [here](http://web.bf.uni-lj.si/bi/biokemija/bioinfo/2007/Material/Uvod1.pdf). 
 
 Though there are many different databases avialable for users, Some of the more well-known databases at the NCBI include:
 
@@ -102,7 +102,7 @@ Importantly, many genes have thorough summaries that can provide the user with a
 
 Fascinating! There's a wide vairety of information to be found amongst the various databases that the NCBI has to offer. Take a few moments to explore the information available about the **POMC** gebe before moving on. 
 
-From James Watson, Nobel laureata and co-discoverer of the structure of DNA:
+From James Watson, Nobel laureate and co-discoverer of the structure of DNA:
 
 >One gene fascinates me: POMC, on chromosome 2, which is a recipe for a protein called ­pro-opiomelanocortin. In the body it gets broken up into different proteins, including melanotropin, which makes the skin darker when you’ve been in the sun, and beta-endorphin, a natural opioid that makes you feel satisfied after eating and also causes the ‘runner’s high.’ It’s the only gene I know whose very structure is an implicit biological message: Happiness is a reward for doing what we should be doing—for being in the sun and making vitamin D, for exercising and for bringing nutrients into our bodies. Eons ago these messages were delivered by the genes of our vertebrate ancestors on this planet. Now they are passed down to us. 
 
@@ -111,6 +111,19 @@ From James Watson, Nobel laureata and co-discoverer of the structure of DNA:
 
 ### NCBI Tools
 
+<p align="center">
+<kbd>
+  <img src="Tools.png"/>
+ </kbd>
+ </p>
+ <p align="center"
+  <em>The painful reality of some tools in bioinformatics - <i>XKCD</i></em>
+</p>
 
+***
+
+The tools available on the NCBI website provide users with a wide variety of ways to manipulate, investigate, and visualize biological data. An exhaustive list of these tools is avialable [here](https://www.ncbi.nlm.nih.gov/home/analyze.shtml). Some of the more popular tools provided by the NCBI include: The Open Reading Frame Finder (ORF Finder), Electronic PCR (e-PCR), and the Genome Workbench. However, the most popular tool by far is BLAST (and its many variations). What BLAST is, how it works, and what it's used for are the topics of the nesxt section.
+
+***
 
 
