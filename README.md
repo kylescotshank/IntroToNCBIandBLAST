@@ -111,17 +111,6 @@ From James Watson, Nobel laureate and co-discoverer of the structure of DNA:
 
 #### NCBI Tools
 
-<p align="center">
-<kbd>
-  <img src="Tools.png"/>
-</kbd>
-</p>
-<p align="center"
-  <em>The painful reality of some bioinformatics tools.- <i>XKCD</i></em>
-</p>
-
-***
-
 The tools available on the NCBI website provide users with a wide variety of ways to manipulate, investigate, and visualize biological data. An exhaustive list of these tools is avialable [here](https://www.ncbi.nlm.nih.gov/home/analyze.shtml). Some of the more popular tools provided by the NCBI include: The Open Reading Frame Finder (ORF Finder), Electronic PCR (e-PCR), and the Genome Workbench. However, the most popular tool by far is BLAST (and its many variations). What BLAST is, how it works, and what it's used for are the topics of the nesxt section.
 
 ***
@@ -130,7 +119,7 @@ The tools available on the NCBI website provide users with a wide variety of way
 
 <p align="center">
 <kbd>
-  <img src="Bioinformatics.png"/>
+  <img src="BlastLogo".png"/>
 </kbd>
 </p>
 
@@ -147,5 +136,19 @@ BLAST, or the Basic Local Alignment Search Tool, is an algorithmic tool for comp
 ***
 
 ##How does BLAST Work?
+
+<p align="center">
+<kbd>
+  <img src="Tools.png"/>
+</kbd>
+</p>
+<p align="center"
+  <em>The painful reality of some bioinformatics tools.- <i>XKCD</i></em>
+</p>
+
+***
+
+As with many algorithmic tools, the technical details of how BLAST works can be difficult to understand. We will avoid the more technical parts of how BLAST operates and instead offer a more holistic approach to understand its functions. If you'd like to read further, the original paper from Altschul et. al can be found [here](https://www.researchgate.net/profile/Stephen_Altschul/publication/20923774_Basic_Local_Alignment_Search_Tool/links/0fcfd50eada1ddc587000000.pdf). A very thorough discussion of the statistical theory behind BLAST is available [here](http://www.math.uzh.ch/?file&key1=14036). 
+
 
 
