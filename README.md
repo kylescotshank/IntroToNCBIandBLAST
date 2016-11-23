@@ -252,15 +252,40 @@ If the queried sequence matches the library sequence and is deemed to be statist
 
 ***
 
+##CHALLENGE
+
+Using BLOSUM62, find the similarity score of the following sequences:
+
+```
+Query       MLFTVSCSKM SSIVDRDDSS
+Subject     MFFTISTHKM SSIADRNDGS
+```
+
+**
+
+`5 + 0 + 6 + 5 + 3 + 4 - 1 - 1 + 5 + 5 + 4 + 4 + 4 + 0 + 6 + 5 + 1 + 6 + 0 + 4 = 113`! 
+
+ With an alignment profile that looks like this:
+
+```
+Query       MLFTVSCSKMSSIVDRDDSS  
+            M FT+S  KMSSI DR+D S
+Sbjct       MFFTISTHKMSSIADRNDGS  
+```
+
+This is the first twenty amino acids of the [CLOCK](http://www.uniprot.org/uniprot/O15516) protein. This protein plasy a vital role in regulating various physiological processes associated with the circadiam rhythm. The query sequence is from *Homo sapiens*, the library sequence is from *Gallus gallus*, the domesticated chicken. Turns out this is a pretty highly conserved protein between species! 
+
+***
+
 ##For what purposes would you use BLAST? 
 
 The following are some example situations where one could use a BLAST search: 
 
   * Following the discovery of a previously unknown gene in the mouse, a researcher might perform a BLAST search of the human genome to see if humans carry a similar gene.
-  * A researcher may have been given a bit of DNA from an unknown species. By running a BLAST query, the researcher may be able to correctly identify the species (or find a homologous one). (**Note**: this is basically the plot of the first 50 pages of [Jurassic Park](https://en.wikipedia.org/wiki/Jurassic_Park_(novel))
+  * A researcher may have been given a bit of DNA from an unknown species. By running a BLAST query, the researcher may be able to correctly identify the species (or find a homologous one). (**Note**: this is basically the plot of the first 50 pages of [Jurassic Park](https://en.wikipedia.org/wiki/Jurassic_Park_(novel)))
  
  We will offer two motivating examples of a BLAST search below. The first example will be on identifying a transgene with BLAST in a genetically modified organism. The second example will show how one can find novel and unexpected genomic information using BLAST.
 
  ***
 
- 
+
