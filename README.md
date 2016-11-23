@@ -199,12 +199,15 @@ In order to "score" a match, a substiution matrix needs to be created so that we
 Returning to our example: Let's imagine that we're comparing our plant protein above to an ortholog in rabbit muscle tissue. 
 
 `Query       NYL  
+
 Subject   SSTNYAENTIQSIISTVEPAQR`
 
 We know that when an `N` matches another `N`, this is scored as a 6. Two matching `Y`s are scored as a 7. And `L` and an `A` mismatch, however, is a -1. Thus the "score" for this word is a 12. In the original instance of BLAST, only words whose matchines scores were above 18 were used as "seeds" to extend the alignment. Let's see how the overall alignment might look:
 
 `Query       NYLENFVQATFN
+
              NY ENF+Q+  +
+             
 Subject   SSTNYAENTIQSIISTVEPAQR`
 
 The centerline provides the following information. A letter designates an identity (or high similarity) between the two sequences. A “+” means the two sequences are similar but not highly similar. If no symbol is given between the two sequences, then a non-similar substitution has occurred.
