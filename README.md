@@ -261,7 +261,7 @@ Query       MLFTVSCSKM SSIVDRDDSS
 Subject     MFFTISTHKM SSIADRNDGS
 ```
 
-**
+***
 
 `5 + 0 + 6 + 5 + 3 + 4 - 1 - 1 + 5 + 5 + 4 + 4 + 4 + 0 + 6 + 5 + 1 + 6 + 0 + 4 = 113`! 
 
