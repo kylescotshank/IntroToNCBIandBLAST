@@ -7,7 +7,7 @@ An outline for the module is below:
   * [What is the NCBI?](#what-is-the-ncbi)
   * [What is BLAST?](#what-is-blast)
   * [How does BLAST work?](#how-does-blast-work)
-  * For what purposes would you use BLAST?
+  * [For what purposes would you use BLAST?](#for-what-purposes-would-you-use-blast)
   * Let's BLAST something!
     * Example One: Find a transgene in the Papaya Genome.
     * Example Two: Finding novel sequences 
@@ -21,7 +21,7 @@ The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov
 
 ***
 
-#### NCBI Databases
+#### NCBI databases
 
  >Understanding nature's mute but elegant language of living cells is the quest of modern molecular biology. From an alphabet of only four letters representing the chemical subunits of DNA emerges a syntax of life processes whose most complex expression is man. The unraveling and use of this "alphabet" to form new "words and phrases" is a central focus of the field of molecular biology. The staggering volume of molecular data and its cryptic and subtle patterns have led to an absolute requirement for computerized databases and analysis tools. - *from the NCBI mission statement*
 
@@ -109,7 +109,7 @@ From James Watson, Nobel laureate and co-discoverer of the structure of DNA:
 
 ***
 
-#### NCBI Tools
+#### NCBI tools
 
 The tools available on the NCBI website provide users with a wide variety of ways to manipulate, investigate, and visualize biological data. An exhaustive list of these tools is avialable [here](https://www.ncbi.nlm.nih.gov/home/analyze.shtml). Some of the more popular tools provided by the NCBI include: 
 
@@ -132,7 +132,7 @@ However, the most popular tool by far is BLAST (and its many variations). What B
 
 ***
 
-BLAST, or the Basic Local Alignment Search Tool, is an algorithmic tool for comparing biological sequence information, such as protein, amino-acid, or nucleotide sequences. A BLAST search allows a researcher to compare a query sequence with a library or database of other sequences, returning matches between the two that meet certain criteria (such as being above a certain statistical threshold). There are a variety of different iterations of BLAST (a different iteration for different sequence comparisons), but the four most popular that are available as web applications on the NCBI website are:
+BLAST, or the Basic Local Alignment Search Tool, is an algorithmic tool for comparing biological sequence information, such as protein, amino-acid, or nucleotide sequences. A BLAST search allows a researcher to compare a query sequence with a library or database of other sequences, returning matches between the two that meet certain criteria (such as being above a certain statistical threshold). There are a variety of different iterations of BLAST (a different iteration for different sequence comparisons), but the four most popular (as shown above) that are available as web applications on the NCBI website are:
 
   * `blastn` (comparing nucleotides to nucleotides)
   * `blastx` (comparing translated nucleotides to proteins sequences)
@@ -141,7 +141,7 @@ BLAST, or the Basic Local Alignment Search Tool, is an algorithmic tool for comp
 
 ***
 
-##How does BLAST Work?
+##How does BLAST work?
 
 <p align="center">
 <kbd>
@@ -251,3 +251,16 @@ If the queried sequence matches the library sequence and is deemed to be statist
 ...confused by the sentence above regarding statistical significance and multiple testing? That's okay - statistics can be confusing. However, BLAST (and many algorithms like it) are inherently *statistical* by nature: they are making heurestic judgements based on probabilities that matches are true and not false positives. Gaining a deeper knowledge of statistics is crucial to a career in bioinformatics - or biology in general. Some good resources for learning are [here](http://chagall.med.cornell.edu/BioinfoCourse/PDFs/Lecture3/bioinformatics_tutorial.pdf) and [here](https://cran.r-project.org/doc/contrib/Seefeld_StatsRBio.pdf).
 
 ***
+
+##For what purposes would you use BLAST? 
+
+The following are some example situations where one could use a BLAST search: 
+
+  * Following the discovery of a previously unknown gene in the mouse, a researcher might perform a BLAST search of the human genome to see if humans carry a similar gene.
+  * A researcher may have been given a bit of DNA from an unknown species. By running a BLAST query, the researcher may be able to correctly identify the species (or find a homologous one). (**Note**: this is basically the plot of the first 50 pages of [Jurassic Park](https://en.wikipedia.org/wiki/Jurassic_Park_(novel))
+ 
+ We will offer two motivating examples of a BLAST search below. The first example will be on identifying a transgene with BLAST in a genetically modified organism. The second example will show how one can find novel and unexpected genomic information using BLAST.
+
+ ***
+
+ 
