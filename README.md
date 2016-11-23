@@ -171,13 +171,13 @@ Let's break down each of these steps.
 
 Let's use an example protein sequence like one would expect to see in a proteomics experiment: 
 
-`NYLENFVQATFN`
+`NLYENFVQATFN`
 
 (For those so interested - this particular sequence of amino acids is from the amino terminal of the protein phosphoglucomutase in *Aradbidopsis thaliana*, a popular model organism in plant biology). 
 
 The first step in BLAST is to break this protein sequence down into 3 letter "words", or shortened sequences. 
 
-`NYL YLE LEN ENF NFV FVQ VQA QAT ATF TFN`
+`NLY LYE YEN ENF NFV FVQ VQA QAT ATF TFN`
 
 By breaking the sequence down into smaller segments, the computational requirements for searching between the query sequences and the databsae sequences. 
 
@@ -199,16 +199,55 @@ In order to "score" a match, a substiution matrix needs to be created so that we
 Returning to our example: Let's imagine that we're comparing our plant protein above to an ortholog in rabbit muscle tissue. 
 
 ```
-Query        NYL  
+Query        NLY  
 Subject   SSTNYAENTIQSIISTVEPAQR
 ```
 
-We know that when an `N` matches another `N`, this is scored as a 6. Two matching `Y`s are scored as a 7. And `L` and an `A` mismatch, however, is a -1. Thus the "score" for this word is a 12. In the original instance of BLAST, only words whose matchines scores were above 18 were used as "seeds" to extend the alignment. Let's see how the overall alignment might look:
+We know that when an `N` matches another `N`, this is scored as a 6. The `L`/`Y` mismatch is a -1. The `Y`/`A` mismatch is a -2. Thus the "score" for this word is a 3. In the original instance of BLAST, only words whose matchines scores were above 18 were used as "seeds" to extend the alignment. As it turns out, no single word in our query sequence has a sufficiently high enough score to proceed. However, when multiple words are used to build the string, this may not be true! For example:
 
 ```
-Query       NYLENFVQATFN
+Query           ENFVQA 
+Subject   SSTNYAENTIQSIISTVEPAQR
+```
+
+Here, we get `5+6-2+3+5+1=18`. A-ha! 
+
+***
+
+####Step 3: Extend the sequence comparison between the library and query sequences in both directions.
+
+Next, the BLAST algorithm will begin to extend the "seed" word by one unit in each direction. If the overall score of this new alignment falls below a certain threshold, the algorithm will cease. 
+
+```
+Query          YENFVQAT
+Subject   SSTNYAENTIQSIIS[TVEPAQR]
+```
+The new score for the above is `-2+5+6-2+3+5+1-1=15`. Hm. This is slightly worse. However, it has not dropped below the algorithm's stopping threshold (which is based on a very complicated formula that we won't show here.)
+
+Continuing to the end:
+
+```
+Query       NLYENFVQATFN
             NY ENF+Q+  +
-Subject   SSTNYAENTIQSIISTVEPAQR
+Subject     NYAENTIQSIIS
 ```
 
-The centerline provides the following information. A letter designates an identity (or high similarity) between the two sequences. A “+” means the two sequences are similar but not highly similar. If no symbol is given between the two sequences, then a non-similar substitution has occurred.
+The centerline provides the following information. A letter designates an identity (or high similarity) between the two sequences. A “+” means the two sequences are similar but not highly similar. If no symbol is given between the two sequences, then a non-similar substitution has occurred. The score for the above (ignoring the bracketed sections of the library sequence) would be `5-1-2+5+6-2+3+5+1-1+0+1=20`. Pretty good!
+
+***
+
+####Step 3: Report a hit if significant
+
+If the queried sequence matches the library sequence and is deemed to be statistically significant after correction for multiple testing, then that is considered a positive "hit" and is reported. Your report might look something like this:
+
+<p align="center">
+<kbd>
+  <img src="BLASTOutput.png"/>
+</kbd>
+</p>
+
+***
+
+...confused by the sentence above regarding statistical significance and multiple testing? That's okay - statistics can be confusing. However, BLAST (and many algorithms like it) are inherently *statistical* by nature: they are making heurestic judgements based on probabilities that matches are true and not false positives. Gaining a deeper knowledge of statistics is crucial to a career in bioinformatics - or biology in general. Some good resources for learning are [here](http://chagall.med.cornell.edu/BioinfoCourse/PDFs/Lecture3/bioinformatics_tutorial.pdf) and [here](ftp://cran.r-project.org/pub/R/doc/contrib/Krijnen-IntroBioInfStatistics.pdf).
+
+***
