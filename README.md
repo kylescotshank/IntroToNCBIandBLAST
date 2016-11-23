@@ -125,7 +125,7 @@ However, the most popular tool by far is BLAST (and its many variations). What B
 
 <p align="center">
 <kbd>
-  <img src="BlastLogo".png"/>
+  <img src="BlastLogo.png"/>
 </kbd>
 </p>
 
