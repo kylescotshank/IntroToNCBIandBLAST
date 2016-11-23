@@ -6,7 +6,7 @@ An outline for the module is below:
 
   * [What is the NCBI?](#what-is-the-ncbi)
   * [What is BLAST?](#what-is-blast)
-  * How does BLAST work?
+  * [How does BLAST work?](#how-does-blast-work)
   * For what purposes would you use BLAST?
   * Let's BLAST something!
     * Example One: Find a transgene in the Papaya Genome.
@@ -23,8 +23,7 @@ The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov
 
 #### NCBI Databases
 
- >Understanding nature's mute but elegant language of living cells is the quest of modern molecular biology. From an alphabet of only four letters representing the chemical subunits of DNA emerges a syntax of life processes whose most complex expression is man. The unraveling and use of this "alphabet" to form new "words and phrases" is a central focus of the field of molecular biology. The staggering volume of molecular data and its cryptic and subtle patterns have led to an absolute requirement for computerized databases and analysis tools. 
- - *from the NCBI mission statement*
+ >Understanding nature's mute but elegant language of living cells is the quest of modern molecular biology. From an alphabet of only four letters representing the chemical subunits of DNA emerges a syntax of life processes whose most complex expression is man. The unraveling and use of this "alphabet" to form new "words and phrases" is a central focus of the field of molecular biology. The staggering volume of molecular data and its cryptic and subtle patterns have led to an absolute requirement for computerized databases and analysis tools. - *from the NCBI mission statement*
 
 
 <p align="center">
@@ -129,4 +128,24 @@ The tools available on the NCBI website provide users with a wide variety of way
 
 ##What is BLAST?
 
-BLAST, or the Basic Local Alignment Search Tool, is an algorithm for comparing biological sequence information, such as amino-acid or nucleotide sequences. A BLAST search allows a researcher to compare a query sequence with a library or database of other sequences, returning matches between the two that meet certain criteria (such as being above a certain statistical threshold). 
+<p align="center">
+<kbd>
+  <img src="Bioinformatics.png"/>
+</kbd>
+</p>
+
+
+***
+
+BLAST, or the Basic Local Alignment Search Tool, is an algorithmic tool for comparing biological sequence information, such as protein, amino-acid, or nucleotide sequences. A BLAST search allows a researcher to compare a query sequence with a library or database of other sequences, returning matches between the two that meet certain criteria (such as being above a certain statistical threshold). There are a variety of different iterations of BLAST (a different iteration for different sequence comparisons), but the four most popular that are available as web applications on the NCBI website are:
+
+  * `blastn` (comparing nucleotides to nucleotides)
+  * `blastx` (comparing translated nucleotides to proteins sequences)
+  * `tblastn` (comparing translated protein sequences to nucleotides)
+  * `blastp` (comparing protein sequences to other protein sequences).
+
+***
+
+##How does BLAST Work?
+
+
