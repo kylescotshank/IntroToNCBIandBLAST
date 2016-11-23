@@ -111,7 +111,13 @@ From James Watson, Nobel laureate and co-discoverer of the structure of DNA:
 
 #### NCBI Tools
 
-The tools available on the NCBI website provide users with a wide variety of ways to manipulate, investigate, and visualize biological data. An exhaustive list of these tools is avialable [here](https://www.ncbi.nlm.nih.gov/home/analyze.shtml). Some of the more popular tools provided by the NCBI include: The Open Reading Frame Finder (ORF Finder), Electronic PCR (e-PCR), and the Genome Workbench. However, the most popular tool by far is BLAST (and its many variations). What BLAST is, how it works, and what it's used for are the topics of the nesxt section.
+The tools available on the NCBI website provide users with a wide variety of ways to manipulate, investigate, and visualize biological data. An exhaustive list of these tools is avialable [here](https://www.ncbi.nlm.nih.gov/home/analyze.shtml). Some of the more popular tools provided by the NCBI include: 
+
+  * The Open Reading Frame Finder (ORF Finder)
+  * Electronic PCR (e-PCR)
+  * The Genome Workbench. 
+
+However, the most popular tool by far is BLAST (and its many variations). What BLAST is, how it works, and what it's used for are the topics of the next section.
 
 ***
 
