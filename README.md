@@ -173,7 +173,7 @@ Let's use an example protein sequence like one would expect to see in a proteomi
 
 `NLYENFVQATFN`
 
-(For those so interested - this particular sequence of amino acids is from the amino terminal of the protein phosphoglucomutase in *Aradbidopsis thaliana*, a popular model organism in plant biology). 
+(For those interested - this particular sequence of amino acids is from the amino terminal of the protein phosphoglucomutase in *Aradbidopsis thaliana*, a popular model organism in plant biology). 
 
 The first step in BLAST is to break this protein sequence down into 3 letter "words", or shortened sequences. 
 
@@ -193,7 +193,7 @@ In order to "score" a match, a substiution matrix needs to be created so that we
 </kbd>
 </p>
 <p align="center"
-  <em>Don't let this scare you! I promise, you won't be doing any math./em>
+  <em>Don't let this scare you! I promise, you won't be doing too much math.</em>
 </p>
 
 Returning to our example: Let's imagine that we're comparing our plant protein above to an ortholog in rabbit muscle tissue. 
