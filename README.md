@@ -8,7 +8,7 @@ An outline for the module is below:
   * [What is BLAST?](#what-is-blast)
   * [How does BLAST work?](#how-does-blast-work)
   * [For what purposes would you use BLAST?](#for-what-purposes-would-you-use-blast)
-  * Let's BLAST something!
+  * [Let's BLAST something!](#lets-blast-something)
     * Example One: Find a transgene in the Papaya Genome.
     * Example Two: Finding novel sequences 
   * Designing and Validating Primers with BLAST
@@ -288,4 +288,4 @@ The following are some example situations where one could use a BLAST search:
 
  ***
 
-
+##Let's BLAST something! 
