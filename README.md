@@ -502,7 +502,7 @@ Next, go to the [Primer3](http://biotools.umassmed.edu/bioapps/primer3_www.cgi) 
 </kbd>
 </p>
 
-This will return a list of primers. Choose the first primer and copy it. 
+This will return a list of primers. Choose the primers from the top and copy and paste them. **Note**: there are ocassions where the first primer returned may not be the most desirable. In this situation, feel free to use any of the additional oligos returned at the bottom of the page. 
 
 <p align="center">
 <kbd>
@@ -515,6 +515,14 @@ Next, return to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&
 <p align="center">
 <kbd>
   <img src="Promoter_Four.png"/>
+</kbd>
+</p>
+
+A-ha! We have exactly one amplicon - from our transgenic papaya (as expected). Click the small link to the GenBank file.
+
+<p align="center">
+<kbd>
+  <img src="Promoter_Five.png"/>
 </kbd>
 </p>
 
