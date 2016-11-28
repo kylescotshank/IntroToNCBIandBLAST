@@ -465,3 +465,56 @@ Effectively, what you've just done is gone "dumpster diving" in the *Drosophila*
 ***
 
 ##Designing and validating primers with BLAST
+
+<p align="center">
+<kbd>
+  <img src="Promoter_One.png"/>
+</kbd>
+</p>
+
+As we've already learned, a [promoter](https://en.wikipedia.org/wiki/Promoter_(genetics)) is a region of DNA that initiatives the transcription of a gene. The majority of genetically modified plants have been transformed with constructs containing the [Cauliflower Mosaic Virus](https://en.wikipedia.org/wiki/Cauliflower_mosaic_virus) (CaMV) 35s promoter (P-35S) due to its unique characteristics as a strong constitutive promoter. We hypothesize then that we should be able to design a primer *in silico* using `PRIMER3` and align such a primer against a target genome to find potential [amplicons](https://en.wikipedia.org/wiki/Amplicon) for that primer. We will do this by designing a primer from the CaMV35S promotoer and aligning it to the *Carica papaya* genome. 
+
+***
+
+First, we must obtain the sequence containing the CaMV35S promoter. Click [here](https://www.ncbi.nlm.nih.gov/nuccore/894139?report=fasta&to=896) to go directly to the sequence in question to obtain the sequence yourself, or reference the sequence below:
+
+```
+>gb|U28417.1|XXP35SGFP:1-896 Cloning vector p35S-GFP, complete sequence
+AAGCTTGCATGCCTGCAGGTCCCCAGATTAGCCTTTTCAATTTCAGAAAGAATGCTAACCCACAGATGGT
+TAGAGAGGCTTACGCAGCAGGTCTCATCAAGACGATCTACCCGAGCAATAATCTCCAGGAAATCAAATAC
+CTTCCCAAGAAGGTTAAAGATGCAGTCAAAAGATTCAGGACTAACTGCATCAAGAACACAGAGAAAGATA
+TATTTCTCAAGATCAGAAGTACTATTCCAGTATGGACGATTCAAGGCTTGCTTCACAAACCAAGGCAAGT
+AATAGAGATTGGAGTCTCTAAAAAGGTAGTTCCCACTGAATCAAAGGCCATGGAGTCAAAGATTCAAATA
+GAGGACCTAACAGAACTCGCCGTAAAGACTGGCGAACAGTTCATACAGAGTCTCTTACGACTCAATGACA
+AGAAGAAAATCTTCGTCAACATGGTGGAGCACGACACACTTGTCTACTCCAAAAATATCAAAGATACAGT
+CTCAGAAGACCAAAGGGCAATTGAGACTTTTCAACAAAGGGTAATATCCGGAAACCTCCTCGGATTCCAT
+TGCCCAGCTATCTGTCACTTTATTGTGAAGATAGTGGAAAAGGAAGGTGGCTCCTACAAATGCCATCATT
+GCGATAAAGGAAAGGCCATCGTTGAAGATGCCTCTGCCGACAGTGGTCCCAAAGATGGACCCCCACCCAC
+GAGGAGCATCGTGGAAAAAGAAGACGTTCCAACCACGTCTTCAAAGCAAGTGGATTGATGTGATATCTCC
+ACTGACGTAAGGGATGACGCACAATCCCACTATCCTTCGCAAGACCCTTCCTCTATATAAGGAAGTTCAT
+TTCATTTGGAGAGAACACGGGGGACTCTAGAGGATCCATAGATCTGATAACAAAGA
+````
+Next, go to the [Primer3](http://biotools.umassmed.edu/bioapps/primer3_www.cgi) website - biotools.umassmed.edu/bioapps/primer3_www.cgi. This is a free, web-based tool that will design primer sequences from a reference DNA sequence. Copy and paste the sequence above into the input box and click "pick primers".
+
+<p align="center">
+<kbd>
+  <img src="Promoter_Two.png"/>
+</kbd>
+</p>
+
+This will return a list of primers. Choose the first primer and copy it. 
+
+<p align="center">
+<kbd>
+  <img src="Promoter_Three.png"/>
+</kbd>
+</p>
+
+Next, return to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) and run a a nucleotide-to-nucleotide search using `blastn`. Paste your primer into the query sequence area and run a BLAST search against *Carica papaya*. 
+
+<p align="center">
+<kbd>
+  <img src="Promoter_Four.png"/>
+</kbd>
+</p>
+
