@@ -294,7 +294,7 @@ Below, we are going to work through two different research examples requiring th
 
 ***
 
-###Find a transgene in the papaya genome.
+###Find a transgene in the papaya genome
 
 <p align="center">
 <kbd>
