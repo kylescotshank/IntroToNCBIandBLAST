@@ -9,7 +9,7 @@ An outline for the module is below:
   * [How does BLAST work?](#how-does-blast-work)
   * [For what purposes would you use BLAST?](#for-what-purposes-would-you-use-blast)
   * [Let's BLAST something!](#lets-blast-something)
-    * Example One: Find a transgene in the Papaya Genome.
+    * [Example One: Find a transgene in the papaya genome](#example-one-find-a-transgene-in-the-papaya-genome)
     * Example Two: Finding novel sequences 
   * Designing and Validating Primers with BLAST
 
@@ -289,3 +289,23 @@ The following are some example situations where one could use a BLAST search:
  ***
 
 ##Let's BLAST something! 
+
+Below, we are going to work through two different research examples requiring the use of BLAST. 
+
+***
+
+###Example One: Find a transgene in the papaya genome.
+
+<p align="center">
+<kbd>
+  <img src="Papaya.jpg"/>
+</kbd>
+</p>
+<p align="center"
+  <em><i>Carica papaya</i></em>
+</p>
+
+The papaya is a tropical fruit native to Central and South America. In terms of global production, it is fourth in terms of tonnage (after bananas, oranges, and mango) and is an incredibly important agricultural export for many nations and municipalities, including the state of Hawaii. It is also, coincidentally, delicious.
+
+...that is, unless it suffers infection by the [Papaya ringspot virus](https://en.wikipedia.org/wiki/Papaya_ringspot_virus) (PRSV), a *Potyvrius* specices that causes both severe growth retardation and a rapid decline in overall fruit quality in the plants. When this virus began to destroy entire harvests of papaya in Hawaii, several different research institutions (including the University of Hawaii and Cornell University) came together to create a genetically modified variant of papaya called *Rainbow*. This transgenic variety expresses the coat protein gene from PRSV to provide pathogenic resistance. (For more history, click [here](https://www.apsnet.org/edcenter/intropp/lessons/viruses/Pages/PapayaRingspotvirus.aspx), and for a more technical read on how this transgenic variety was created, click [here](https://www.researchgate.net/profile/Blake_Meyers/publication/6626845_Use_of_massively_parallel_signature_sequencing_to_study_genes_expressed_during_the_plant_defense_response/links/0a85e52fa6788198e2000000.pdf#page=210)).
+
