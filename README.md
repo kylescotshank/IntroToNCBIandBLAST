@@ -389,7 +389,7 @@ Take your time to examine the results page. An area of particular importance is 
 
 <p align="center">
 <kbd>
-  <img src="ExampleTwo_One.jpg"/>
+  <img src="ExampleTwo_One.png"/>
 </kbd>
 </p>
 <p align="center"
