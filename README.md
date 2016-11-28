@@ -395,3 +395,19 @@ Take your time to examine the results page. An area of particular importance is 
 <p align="center"
   <em>An insect cell with a <i>Wolbachia</i> infection</em>
 </p>
+
+***
+
+There are a multitude of technologies for sequencing DNA, with the list growing continuously (and [exponentially](http://www.economist.com/node/7854314)). One of the more commonly used methods for producing draft sequences of entire genomes is known as [shotgun sequencing](https://en.wikipedia.org/wiki/Shotgun_sequencing). Shotgun sequencing works (more or less) like this:
+
+<p align="center">
+<kbd>
+  <img src="ExampleTwo_Two.png"/>
+</kbd>
+</p>
+
+First, the DNA molecule is fragmented into random pieces (hence the "shotgun"). Then, these pieces are computationally aligned to produce an assembly of overlapping DNA sequences that, when completed, produce an assembled sequence for that particular strand of DNA. This technology allows for the possibility of sequencing a whole genome at once with a large array of sequencers and the methodology underpins much of what we think of as Next-generation sequencing. 
+
+However, rather than focusing on the technical details, let's instead focus on the biology. The physical material required for sequencing can come from many different types of tissue within the query organism. What may happen if the organism in question contains an intracellular endosymbiont? *Salzburg et al*. aimed to answer that question in [a paper](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2005-6-3-r23) that focused on searching the sequenced **Drosophila** (fruit fly) genome for traces of a known parasite, **Walbachia** (shown above). 
+
+
