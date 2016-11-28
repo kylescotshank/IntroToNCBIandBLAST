@@ -10,7 +10,7 @@ An outline for the module is below:
   * [For what purposes would you use BLAST?](#for-what-purposes-would-you-use-blast)
   * [Let's BLAST something!](#lets-blast-something)
     * [Example One: Find a transgene in the papaya genome](#find-a-transgene-in-the-papaya-genome)
-    * Example Two: Finding novel sequences 
+    * [Example Two: Finding novel sequences](#finding-novel-sequences) 
   * Designing and Validating Primers with BLAST
 
 ***
@@ -381,7 +381,17 @@ When it's completed, you'll see your BLAST results.
 </kbd>
 </p>
 
-The area of importance is the *Alignments* section. Note that the search has produced multiple alignments, each to different biological samples of *Carica papaya*. Also note how high the matching scores are: 98-99%. We have thus used a BLAST search to find the transgenic protein that has been inserted into the genome of specific strains of papaya. 
+Take your time to examine the results page. An area of particular importance is the *Alignments* section. Note that the search has produced multiple alignments, each to different biological samples of *Carica papaya*. Also note how high the matching scores (for "positives") are: 98-99%. We have thus used a BLAST search to find the transgenic protein that has been inserted into the genome of specific strains of papaya. You could now use the same approximate method to search for known transgenic genes in other genetically modified organisms. 
 
 ***
 
+###Finding novel sequences
+
+<p align="center">
+<kbd>
+  <img src="Papaya.jpg"/>
+</kbd>
+</p>
+<p align="center"
+  <em>An insect cell with a <i>Wolbachia</i> infection</em>
+</p>
