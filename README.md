@@ -353,7 +353,9 @@ On the right hand side of the screen, beneath the section *Analyze this sequence
 </kbd>
 </p>
 
-You'll now see that you are in the `blastn` suite. We need to change this, as we want to align a protein sequence to the nucleotide sequence of the Papaya. From the top toolbar, click `tblastn`. 
+You'll now see that you are in the `blastn` suite. We need to change this, as we want to align a protein sequence to the nucleotide sequence of the Papaya. Do you remember which type of BLAST search we would use? 
+
+From the top toolbar, click `tblastn`. 
 
 <p align="center">
 <kbd>g
