@@ -307,5 +307,26 @@ Below, we are going to work through two different research examples requiring th
 
 The papaya is a tropical fruit native to Central and South America. In terms of global production, it is fourth in terms of tonnage (after bananas, oranges, and mango) and is an incredibly important agricultural export for many nations and municipalities, including the state of Hawaii. It is also, coincidentally, delicious.
 
-...that is, unless it suffers infection by the [Papaya ringspot virus](https://en.wikipedia.org/wiki/Papaya_ringspot_virus) (PRSV), a *Potyvrius* specices that causes both severe growth retardation and a rapid decline in overall fruit quality in the plants. When this virus began to destroy entire harvests of papaya in Hawaii, several different research institutions (including the University of Hawaii and Cornell University) came together to create a genetically modified variant of papaya called *Rainbow*. This transgenic variety expresses the coat protein gene from PRSV to provide pathogenic resistance. (For more history, click [here](https://www.apsnet.org/edcenter/intropp/lessons/viruses/Pages/PapayaRingspotvirus.aspx), and for a more technical read on how this transgenic variety was created, click [here](https://www.researchgate.net/profile/Blake_Meyers/publication/6626845_Use_of_massively_parallel_signature_sequencing_to_study_genes_expressed_during_the_plant_defense_response/links/0a85e52fa6788198e2000000.pdf#page=210)).
+...that is, unless it suffers infection by the [Papaya ringspot virus](https://en.wikipedia.org/wiki/Papaya_ringspot_virus) (PRSV), a *Potyvirus* that causes both severe growth retardation and a rapid decline in overall fruit quality in the plant. When this virus began to destroy entire harvests of papaya in Hawaii, several different research institutions (including the University of Hawaii and Cornell University) came together to create two genetically modified variants of papaya called *Rainbow* and *SunUp*. These transgenic varieties express the coat protein (CP) gene from PRSV to provide resistance to infection. These genetically modified variants are wildly successful and represent nearly three-quarters of all papaya grown in Hawaii. (For more history, click [here](https://www.apsnet.org/edcenter/intropp/lessons/viruses/Pages/PapayaRingspotvirus.aspx), and for a more technical read on how this transgenic variety was created, click [here](https://www.researchgate.net/profile/Blake_Meyers/publication/6626845_Use_of_massively_parallel_signature_sequencing_to_study_genes_expressed_during_the_plant_defense_response/links/0a85e52fa6788198e2000000.pdf#page=210)).
 
+The goal of this example is to locate the raw sequence of the CP gene from the NCBI, and use a BLAST search to find this sequence in the papaya genome. 
+
+***
+
+####Find the CP sequence 
+
+Navigate to the NCBI website and search for the Papaya ringspot virus in all databases. 
+
+<p align="center">
+<kbd>g
+  <img src="ExampleOne_One.png">
+</kbd>
+</p>
+
+From the results list, navigate to the **Gene** database.
+
+<p align="center">
+<kbd>g
+  <img src="ExampleOne_Two.png">
+</kbd>
+</p>
