@@ -410,7 +410,7 @@ First, the DNA molecule is fragmented into random pieces (hence the "shotgun"). 
 
 However, rather than focusing on the technical details, let's instead focus on the biology. The physical material required for sequencing can come from many different types of tissue within the query organism. What may happen if the organism in question contains an intracellular endosymbiont? 
 
-*Salzburg et al*. aimed to answer that question in [a paper](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2005-6-3-r23) that focused on searching the sequenced **Drosophila** (fruit fly) genome for traces of a known parasite, **Wolbachia** (shown above). The ability to search genomic data in this way is only possible due to the depositing of raw data into a central genomic repository and the practice of making it available: one of the main operational objectives of the NCBI. Below, we will walk through the same steps as taken in the paper to show how much **Wolbachia** genetic material can be discovered in the raw data of a **Drosophila** sequencing project.
+*Salzburg et al*. aimed to answer that question in [a paper](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2005-6-3-r23) that focused on searching the sequenced *Drosophila* (fruit fly) genome for traces of a known parasite, *Wolbachia* (shown above). The ability to search genomic data in this way is only possible due to the depositing of raw data into a central genomic repository and the practice of making it available: one of the main operational objectives of the NCBI. Below, we will walk through the same steps as taken in the paper to show how much *Wolbachia* genetic material can be discovered in the raw data of a *Drosophila* sequencing project.
 
 ***
 
@@ -422,6 +422,25 @@ First, navigate to the NCBI website and search for Wolbachia. Click **Assembly**
 </kbd>
 </p>
 
+A list of different *Wolbachia* genome assemblies will be returned. Click the first assembly: `ASM802v1`. 
+
+<p align="center">
+<kbd>
+  <img src="ExampleTwo_Four.png"/>
+</kbd>
+</p>
+
+You'll now be viewing the assembly report. Towards the bottom of the screen, take note of the RefSeq sequence ID: NC_002978.6
+
+Navigate to the Trace Archives by clicking [here](https://trace.ncbi.nlm.nih.gov/Traces/assembly/) or going to trace.ncbi.nlm.nih.gov/Traces/assembly. The trace archives is a repository of fully and partially complete genomic asssemblies that were created from gel/capillary platforms, such as older Applied Biosystems techniques. 
+
+When you are there, click **Trace Blast**
+
+<p align="center">
+<kbd>
+  <img src="ExampleTwo_Six.png"/>
+</kbd>
+</p>
 
 
 
