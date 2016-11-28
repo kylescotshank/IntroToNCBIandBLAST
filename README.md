@@ -11,7 +11,7 @@ An outline for the module is below:
   * [Let's BLAST something!](#lets-blast-something)
     * [Example One: Find a transgene in the papaya genome](#find-a-transgene-in-the-papaya-genome)
     * [Example Two: Finding novel sequences](#finding-novel-sequences) 
-  * Designing and Validating Primers with BLAST
+  * [Designing and validating primers with BLAST](#designing-and-validating-primers-with-blast)
 
 ***
 
@@ -442,5 +442,26 @@ When you are there, click **Trace Blast**
 </kbd>
 </p>
 
+In the **Enter Query Sequence** section, input the RefSeq sequence ID from above: NC_002978.6. In the **Choose Search Set** area, choose Drosophila melanogaster - WGS. Then click BLAST.
 
+<p align="center">
+<kbd>
+  <img src="ExampleTwo_Seven.png"/>
+</kbd>
+</p>
 
+When this completes, your results should look something like this:
+
+<p align="center">
+<kbd>
+  <img src="ExampleTwo_Eight.png"/>
+</kbd>
+</p>
+
+Take a few moments to examine this page, including the **Alignments** section. You'll notice that there are literally *hundreds* of sequence hits between the *Wolbachia* sequence and the *Drosophila* genome. What's happening? 
+
+Effectively, what you've just done is gone "dumpster diving" in the *Drosophila* genome. When many of these biological samples were created via shotgun sequencing, a lot of genetic material from *Wolbachia* were included in the libraries that were sequenced due to latent infections. This material can then be recovered in the raw data, yet usually (hopefully) doesn't end up being falsely included in the actual genome assembly. By searching the Trace archive, we were able to see just how common it is for this to occur. In fact, it's possible to recover an entire *Wolbachia* genome just from sequencing data for *Drosophila*!
+
+***
+
+##Designing and validating primers with BLAST
