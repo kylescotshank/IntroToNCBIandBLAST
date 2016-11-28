@@ -315,7 +315,7 @@ The goal of this example is to locate the raw sequence of the CP gene from the N
 
 ####Find the CP sequence 
 
-Navigate to the NCBI website and search for the Papaya ringspot virus in all databases. 
+Navigate to the NCBI website and search for the Papaya ringspot virus coat protein in all databases. 
 
 <p align="center">
 <kbd>g
@@ -330,3 +330,28 @@ From the results list, navigate to the **Gene** database.
   <img src="ExampleOne_Two.png">
 </kbd>
 </p>
+
+You are now looking at a lot of information related to the PRSVgp1 gene in the Papaya ringspot virus. Much of this information requires a deeper look at the genetics of viruses (a quick overview is [here](http://www.course-notes.org/Biology/Outlines/Chapter_18_The_Genetics_of_Viruses_and_Bacteria)), but what we need is found beneath the subsection *NCBI Reference Sequences*. Here, you'll see the reference assembly *NC_001795.1*. Click on the link marked FASTA. (Note - FASTA is a data type that you may want to become familiar with. More information is available [here](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp)). 
+
+<p align="center">
+<kbd>g
+  <img src="ExampleOne_Three.png">
+</kbd>
+</p>
+
+The FASTA sequence you see is the entire genome of the PRSV. 
+
+<p align="center">
+<kbd>g
+  <img src="ExampleOne_Four.png">
+</kbd>
+</p>
+
+On the right hand side of the screen, beneath the section *Analyze this sequence*, you'll see an option to *Run BLAST*. Click this link. 
+
+<p align="center">
+<kbd>g
+  <img src="ExampleOne_Four.png">
+</kbd>
+</p>
+
