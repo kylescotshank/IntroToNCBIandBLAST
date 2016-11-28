@@ -313,8 +313,6 @@ The goal of this example is to locate the raw sequence of the CP gene from the N
 
 ***
 
-####Find the CP sequence 
-
 Navigate to the NCBI website and search for the Papaya ringspot virus coat protein in all databases. 
 
 <p align="center">
@@ -331,7 +329,7 @@ From the results list, navigate to the **Gene** database.
 </kbd>
 </p>
 
-You are now looking at a lot of information related to the PRSVgp1 gene in the Papaya ringspot virus. Much of this information requires a deeper look at the genetics of viruses (a quick overview is [here](http://www.course-notes.org/Biology/Outlines/Chapter_18_The_Genetics_of_Viruses_and_Bacteria)), but what we need is found beneath the subsection *NCBI Reference Sequences*. Here, you'll see the reference assembly *NC_001795.1*. Click on the link marked FASTA. (Note - FASTA is a data type that you may want to become familiar with. More information is available [here](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp)). 
+You are now looking at a lot of information related to the PRSVgp1 gene in the Papaya ringspot virus. Much of this information requires a deeper look at the genetics of viruses (a quick overview is [here](http://www.course-notes.org/Biology/Outlines/Chapter_18_The_Genetics_of_Viruses_and_Bacteria)), but what we need is found beneath the subsection *NCBI Reference Sequences*. In this subsection, you'll see an area titled **mRNA and Protein(s)**. In the list of proteins, you'll see *NP_73424.1 coat protein*, the potyvirus coat protein. Click it.  
 
 <p align="center">
 <kbd>g
@@ -339,7 +337,7 @@ You are now looking at a lot of information related to the PRSVgp1 gene in the P
 </kbd>
 </p>
 
-The FASTA sequence you see is the entire genome of the PRSV. 
+This will bring you to the NCBI reference sequence page. 
 
 <p align="center">
 <kbd>g
@@ -351,7 +349,37 @@ On the right hand side of the screen, beneath the section *Analyze this sequence
 
 <p align="center">
 <kbd>g
-  <img src="ExampleOne_Four.png">
+  <img src="ExampleOne_Five.png">
 </kbd>
 </p>
+
+You'll now see that you are in the `blastn` suite. We need to change this, as we want to align a protein sequence to the nucleotide sequence of the Papaya. From the top toolbar, click `tblastn`. 
+
+<p align="center">
+<kbd>g
+  <img src="ExampleOne_Six.png">
+</kbd>
+</p>
+
+You'll see that the NCBI already imported the accession number from the PRSV coat protein into your query sequence area. Below, next to the section marked *Orgnanism*, type in *Carica papaya* and select the appropriate organism (the taxid should equal 3649). When this is completed, click the BLAST button at the bottom of the page.
+
+<p align="center">
+<kbd>g
+  <img src="ExampleOne_Seven.png">
+</kbd>
+</p>
+
+Behind the scenes, the NCBI is now performing a BLAST search between the coat protein sequence and a translated nucleotide sequence of the Papaya genome. This may take some time to complete, depending on the availability of resources at the NCBI. Your screen will continually refresh while this is taking place. 
+
+When it's completed, you'll see your BLAST results. 
+
+<p align="center">
+<kbd>g
+  <img src="ExampleOne_Eight.png">
+</kbd>
+</p>
+
+The area of importance is the *Alignments* section. Note that the search has produced multiple alignments, each to different biological samples of *Carica papaya*. Also note how high the matching scores are: 98-99%. We have thus used a BLAST search to find the transgenic protein that has been inserted into the genome of specific strains of papaya. 
+
+***
 
