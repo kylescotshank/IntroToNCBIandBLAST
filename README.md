@@ -28,7 +28,7 @@ The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov
 
 <p align="center">
 <kbd>
-  <img src="Images/Images/SequencingData.png"/>
+  <img src="Images/SequencingData.png"/>
  </kbd>
  </p>
  <p align="center"
