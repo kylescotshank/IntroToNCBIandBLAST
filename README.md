@@ -199,6 +199,8 @@ In order to "score" a match, a substitution matrix needs to be created so that w
   <em>Don't let this scare you! I promise, you won't be doing too much math.</em>
 </p>
 
+Take note of the highlighted values along the diagonal: these are the "scores" that are provided when different amino acids match in a given protein sequence. Some are much larger than others - why? Much of it has to do with biochemical reactions. For example: cysteine (*C* above) forms important disulfide bonds within proteins that are important to protein-folding. 
+
 Returning to our example: Let's imagine that we're comparing our plant protein above to an ortholog in rabbit muscle tissue. 
 
 ```
@@ -217,7 +219,7 @@ Here, we get `5+6-2+3+5+1=18`. A-ha!
 
 ***
 
-####Step 3: Extend the sequence comparison between the library and query sequences in both directions.
+####Step 3: Extend the local sequence alignment between the library and query sequences in both directions.
 
 Next, the BLAST algorithm will begin to extend the "seed" word by one unit in each direction. If the overall score of this new alignment falls below a certain threshold, the algorithm will cease. 
 
@@ -235,13 +237,13 @@ Query       NLYENFVQATFN
 Subject     NYAENTIQSIIS
 ```
 
-The centerline provides the following information. A letter designates an identity (or high similarity) between the two sequences. A “+” means the two sequences are similar but not highly similar. If no symbol is given between the two sequences, then a non-similar substitution has occurred. The score for the above (ignoring the bracketed sections of the library sequence) would be `5-1-2+5+6-2+3+5+1-1+0+1=20`. Pretty good!
+The centerline provides the following information. A letter designates a matching amino acid between the two sequences at a given position. A “+” means the two amino acids are biochemically similar but not identical. If no symbol is given between the two sequences, then it is a mismatch. The score for the above (ignoring the bracketed sections of the library sequence) would be `5-1-2+5+6-2+3+5+1-1+0+1=20`. Pretty good!
 
 ***
 
 ####Step 3: Report a hit if significant
 
-If the queried sequence matches the library sequence and is deemed to be statistically significant after correction for multiple testing, then that is considered a positive "hit" and is reported. Your report might look something like this:
+If the query sequence aligns well to the library sequence and is deemed to be statistically significant after correction for multiple testing, then that is considered a positive "hit" and is reported. Your report might look something like this:
 
 <p align="center">
 <kbd>
