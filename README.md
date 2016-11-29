@@ -510,7 +510,9 @@ This will return a list of primers. Choose the primers from the top and copy and
 </kbd>
 </p>
 
-Next, return to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) and run a a nucleotide-to-nucleotide search using `blastn`. Paste your primer into the query sequence area and run a BLAST search against the entire nucleotide collection. Note that I have extracted just the nucleotide sequence from the primer results above. Note that this may take some time to run. 
+Next, return to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) and run a a nucleotide-to-nucleotide search using `blastn`. Paste your primer into the query sequence area. Next, change the database to search against to whole genome shotgun contigs. Finally, set your organism to *Carica papaya*. BLAST away! 
+
+**Note**: I have extracted just the nucleotide sequence from the primer results above and concatenated.  
 
 <p align="center">
 <kbd>
