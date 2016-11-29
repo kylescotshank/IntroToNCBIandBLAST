@@ -427,7 +427,7 @@ First, navigate to the NCBI website and use the search string "WD0159". Click **
 </kbd>
 </p>
 
-You're now looking at a specific gene in the *Wolbachia* genome - one that is often used as a [DNA Barcode](http://www.barcodeoflife.org/content/about/what-dna-barcoding) to identify different strains of *Wolbachia*. Towards the bottom of this screen, underneath the *Reference assmembly* area, click FASTA. Copy and paste the FASTA sequence. It should look something like this. 
+You're now looking at a specific gene in the *Wolbachia* genome - one that is often used as a [DNA Barcode](http://www.barcodeoflife.org/content/about/what-dna-barcoding) to identify different strains of *Wolbachia*. Towards the bottom of this screen, underneath the *Reference assmembly* area, click FASTA. Copy and paste the NCBI Reference Sequence (NC_002978.6) It should look something like this. 
 
 <p align="center">
 <kbd>
@@ -446,7 +446,7 @@ When you are there, click **Trace Blast**
 </kbd>
 </p>
 
-In the **Enter Query Sequence** section, input the RefSeq sequence ID from above: NC_002978.6. In the **Choose Search Set** area, choose Drosophila melanogaster - WGS. Then click BLAST.
+In the **Enter Query Sequence** section, paste the NCBI Reference Sequence from earlier. In the **Choose Search Set** area, choose Drosophila melanogaster - WGS. Then click BLAST.
 
 <p align="center">
 <kbd>
@@ -462,7 +462,7 @@ When this completes, your results should look something like this:
 </kbd>
 </p>
 
-Take a few moments to examine this page, including the **Alignments** section. You'll notice that there are literally *hundreds* of sequence hits between the *Wolbachia* sequence and the *Drosophila* genome. What's happening? 
+Take a few moments to examine this page, including the **Alignments** section. You'll notice that there are literally *hundreds* of sequence hits between the *Wolbachia* sequence and the *Drosophila* genome. You'll also note that these alignments are long and highly similar: you wouldn't find this unless the shotgun reads from *Drosophila* were contaminated with *Wolbachia*. What's happening? 
 
 Effectively, what you've just done is gone "dumpster diving" in the *Drosophila* genome. When many of these biological samples were created via shotgun sequencing, a lot of genetic material from *Wolbachia* were included in the libraries that were sequenced due to latent infections. This material can then be recovered in the raw data, yet usually (hopefully) doesn't end up being falsely included in the actual genome assembly. By searching the Trace archive, we were able to see just how common it is for this to occur. In fact, it's possible to recover an entire *Wolbachia* genome just from sequencing data for *Drosophila*!
 
@@ -506,7 +506,7 @@ Next, go to the [Primer3](http://biotools.umassmed.edu/bioapps/primer3_www.cgi) 
 </kbd>
 </p>
 
-This will return a list of primers. Choose the primers from the top and copy and paste them. **Note**: there are occasions where the first primer returned may not be the most desirable. In this situation, feel free to use any of the additional oligos returned at the bottom of the page. 
+This will return a list of primers. Note that the product size for the first primer pair is 199bp. Choose the primers from the top and copy and paste them. **Note**: there are occasions where the first primer returned may not be the most desirable. In this situation, feel free to use any of the additional oligos returned at the bottom of the page. 
 
 <p align="center">
 <kbd>
@@ -524,7 +524,7 @@ Next, return to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&
 </kbd>
 </p>
 
-Voila! You have found your sequence. 
+Voila! You have found your sequence. Examining the subject sequence alignment coordinates, you can see that the predicted amplicon length would be (272-74+1=199), exactly matching what PRIMER3 gave us. 
 
 <p align="center">
 <kbd>
