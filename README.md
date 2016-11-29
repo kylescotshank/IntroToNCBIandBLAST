@@ -520,4 +520,12 @@ Next, return to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&
 </kbd>
 </p>
 
+Voila! You have found your sequence. 
 
+<p align="center">
+<kbd>
+  <img src="Promoter_Five.png"/>
+</kbd>
+</p>
+
+As you can see, this is a different strain of genetically modified Papaya - a strain called *SunUp*. 
