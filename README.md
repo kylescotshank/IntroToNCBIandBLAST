@@ -157,7 +157,7 @@ BLAST, or the Basic Local Alignment Search Tool, is an algorithmic tool for comp
 
 ***
 
-As with many algorithmic tools, the technical details of how BLAST works can be difficult to understand. We will not let this deter us! We will avoid the more technical parts of how BLAST operates and instead offer a more holistic approach to understanding its function. BLAST is useful because it allows us to do something that could take an incredible amount of time very quickly. For example: the number of possible global alignments between two sequences of 1000 amino acids each is 10<sup>600</sup> - to check each of these alignments would take a more time than the total age of the universe! BLAST is useful (and fast) because it does not perform an exhaustive search, but instead uses heuristics to only search portions of the sequence that are likely to give the most meaningful results. If you'd like to read further, the original paper from Altschul et. al can be found [here](https://www.researchgate.net/profile/Stephen_Altschul/publication/20923774_Basic_Local_Alignment_Search_Tool/links/0fcfd50eada1ddc587000000.pdf). A very thorough discussion of the statistical theory behind BLAST is available [here](http://www.math.uzh.ch/?file&key1=14036). 
+As with many algorithmic tools, the technical details of how BLAST works can be difficult to understand. We will not let this deter us! We will avoid the more technical parts of how BLAST operates and instead offer a more holistic approach to understanding its function. BLAST is useful because it allows us to do something that could take an incredible amount of time very quickly. For example: the number of possible global alignments between two sequences of 1000 amino acids each is 10<sup>600</sup> - to check each of these alignments would take longer than the total elapsed age of the universe! BLAST is useful (and fast) because it does not perform an exhaustive search, but instead uses heuristics to only search portions of the sequence that are likely to give the most meaningful results. If you'd like to read further, the original paper from Altschul et. al can be found [here](https://www.researchgate.net/profile/Stephen_Altschul/publication/20923774_Basic_Local_Alignment_Search_Tool/links/0fcfd50eada1ddc587000000.pdf). A very thorough discussion of the statistical theory behind BLAST is available [here](http://www.math.uzh.ch/?file&key1=14036). 
 
 At a very high-level, a BLAST search involves the following steps:
 
@@ -386,7 +386,7 @@ When it's completed, you'll see your BLAST results.
 </kbd>
 </p>
 
-Take your time to examine the results page. An area of particular importance is the *Alignments* section. Note that the search has produced multiple alignments, each to different biological samples of *Carica papaya*. Also note how high the matching scores (for "positives") are: 98-99%. We have thus used a BLAST search to find the transgenic protein that has been inserted into the genome of specific strains of papaya. You could now use the same approximate method to search for known transgenic genes in other genetically modified organisms. 
+Take your time to examine the results page. An area of particular importance is the *Alignments* section. Note that the search has produced multiple alignments, each to different biological samples of *Carica papaya*. You are looking for alignments where as much of the query sequence is aligned as possible. Also note how high the matching scores (for "positives") are: 98-99%. We have thus used a BLAST search to find the transgenic protein that has been inserted into the genome of specific strains of papaya. You could now use the same approximate method to search for known transgenic genes in other genetically modified organisms. 
 
 ***
 
@@ -403,7 +403,7 @@ Take your time to examine the results page. An area of particular importance is 
 
 ***
 
-There are a multitude of technologies for sequencing DNA, with the list growing continuously (and [exponentially](http://www.economist.com/node/7854314)). One of the more commonly used methods for producing draft sequences of entire genomes is known as [shotgun sequencing](https://en.wikipedia.org/wiki/Shotgun_sequencing). Shotgun sequencing works (more or less) like this:
+There are a multitude of technologies for sequencing DNA, with the list growing continuously (and [exponentially](http://www.economist.com/node/7854314)). One of the more commonly used methods for producing draft sequences of entire genomes is known as [whole genome shotgun sequencing](https://en.wikipedia.org/wiki/Shotgun_sequencing). Shotgun sequencing works (more or less) like this:
 
 <p align="center">
 <kbd>
@@ -411,15 +411,15 @@ There are a multitude of technologies for sequencing DNA, with the list growing 
 </kbd>
 </p>
 
-First, the DNA molecule is fragmented into random pieces (hence the "shotgun"). Then, these pieces are computationally aligned to produce an assembly of overlapping DNA sequences that, when completed, produce an assembled sequence for that particular strand of DNA. This technology allows for the possibility of sequencing a whole genome at once with a large array of sequencers and the methodology underpins much of what we think of as Next-generation sequencing. 
+First, the DNA molecule is fragmented into random pieces (hence the "shotgun"). Then, these pieces are computationally aligned to produce an assembly of overlapping DNA sequences that, when completed, produce an assembled sequence for that particular strand of DNA. This technology allows for the possibility of sequencing a whole genome at once with a large array of sequencers and the methodology underpins much of what we think of as next-generation sequencing. 
 
-However, rather than focusing on the technical details, let's instead focus on the biology. The physical material required for sequencing can come from many different types of tissue within the query organism. What may happen if the organism in question contains an intracellular endosymbiont? 
+However, rather than focusing on the technical details, let's instead focus on the biology. The DNA that is being sequenced can come from many different types of tissue within the sample. What may happen if the organism in question contains an intracellular endosymbiont? 
 
-*Salzburg et al*. aimed to answer that question in [a paper](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2005-6-3-r23) that focused on searching the sequenced *Drosophila* (fruit fly) genome for traces of a known parasite, *Wolbachia* (shown above). The ability to search genomic data in this way is only possible due to the depositing of raw data into a central genomic repository and the practice of making it available: one of the main operational objectives of the NCBI. Below, we will walk through the same steps as taken in the paper to show how much *Wolbachia* genetic material can be discovered in the raw data of a *Drosophila* sequencing project.
+*Salzburg et al*. aimed to answer that question in [a paper](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2005-6-3-r23) that focused on searching the shotgun sequence data for the *Drosophila* (fruit fly) genome project for traces of a known parasite, *Wolbachia* (shown above). The DNA samples used for this particular genome project were from fruit fly embryos that also happened to contain the parasite. The ability to search genomic data in this way is only possible due to the depositing of raw data into a central genomic repository and the practice of making it available: one of the main operational objectives of the NCBI. All of these shotgun sequence reads are in the NCBI Trace Archives database. Below, we will walk through the same steps as taken in the paper to show how much *Wolbachia* genetic material can be discovered in the raw data of a *Drosophila* sequencing project.
 
 ***
 
-First, navigate to the NCBI website and search for Wolbachia. Click **Assembly**.
+First, navigate to the NCBI website and use the search string "WD0159". Click **Gene**.
 
 <p align="center">
 <kbd>
@@ -427,7 +427,7 @@ First, navigate to the NCBI website and search for Wolbachia. Click **Assembly**
 </kbd>
 </p>
 
-A list of different *Wolbachia* genome assemblies will be returned. Click the first assembly: `ASM802v1`. 
+You're now looking at a specific gene in the *Wolbachia* genome - one that is often used as a [DNA Barcode](http://www.barcodeoflife.org/content/about/what-dna-barcoding) to identify different strains of *Wolbachia*. Towards the bottom of this screen, underneath the *Reference assmembly* area, click FASTA. Copy and paste the FASTA sequence. It should look something like this. 
 
 <p align="center">
 <kbd>
@@ -435,7 +435,6 @@ A list of different *Wolbachia* genome assemblies will be returned. Click the fi
 </kbd>
 </p>
 
-You'll now be viewing the assembly report. Towards the bottom of the screen, take note of the RefSeq sequence ID: NC_002978.6
 
 Navigate to the Trace Archives by clicking [here](https://trace.ncbi.nlm.nih.gov/Traces/assembly/) or going to trace.ncbi.nlm.nih.gov/Traces/assembly. The trace archives is a repository of fully and partially complete genomic asssemblies that were created from gel/capillary platforms, such as older Applied Biosystems techniques. 
 
