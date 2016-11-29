@@ -157,7 +157,7 @@ BLAST, or the Basic Local Alignment Search Tool, is an algorithmic tool for comp
 
 ***
 
-As with many algorithmic tools, the technical details of how BLAST works can be difficult to understand. We will avoid the more technical parts of how BLAST operates and instead offer a more holistic approach to understand its functions. If you'd like to read further, the original paper from Altschul et. al can be found [here](https://www.researchgate.net/profile/Stephen_Altschul/publication/20923774_Basic_Local_Alignment_Search_Tool/links/0fcfd50eada1ddc587000000.pdf). A very thorough discussion of the statistical theory behind BLAST is available [here](http://www.math.uzh.ch/?file&key1=14036). 
+As with many algorithmic tools, the technical details of how BLAST works can be difficult to understand. We will not let this deter us! We will avoid the more technical parts of how BLAST operates and instead offer a more holistic approach to understanding its function. BLAST is useful because it allows us to do something that could take an incredible amount of time very quickly. For example: the number of possible global alignments between two sequences of 1000 amino acids each is 10<sup>600</sup> - to check each of these alignments would take a more time than the total age of the universe! BLAST is useful (and fast) because it does not perform an exhaustive search, but instead uses heuristics to only search portions of the sequence that are likely to give the most meaningful results. If you'd like to read further, the original paper from Altschul et. al can be found [here](https://www.researchgate.net/profile/Stephen_Altschul/publication/20923774_Basic_Local_Alignment_Search_Tool/links/0fcfd50eada1ddc587000000.pdf). A very thorough discussion of the statistical theory behind BLAST is available [here](http://www.math.uzh.ch/?file&key1=14036). 
 
 At a very high-level, a BLAST search involves the following steps:
 
@@ -182,11 +182,11 @@ The first step in BLAST is to break this protein sequence down into 3 letter "wo
 
 `NLY LYE YEN ENF NFV FVQ VQA QAT ATF TFN`
 
-By breaking the sequence down into smaller segments, the computational requirements for searching between the query sequences and the databsae sequences. 
+By breaking the sequence down into smaller segments, the computational requirements for searching between the query sequence and the database are much lower. 
 
 ***
 
-####Step 2: Identify high-scoring matches between query sequences and library sequences
+####Step 2: Identify high-scoring matches between query sequence words and library sequences
 
 In order to "score" a match, a substitution matrix needs to be created so that we can compare values along a sequence to one another and measure their similarity. BLAST uses a Block Substitution Matrix (known as [BLOSUM](https://en.wikipedia.org/wiki/BLOSUM)). Each different iteration of BLAST uses a different substitution matrix: for protein-to-protein comparisons, the matrix is known as BLOSUM62. It looks like this:
 
