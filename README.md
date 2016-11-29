@@ -28,7 +28,7 @@ The [National Center for Biotechnology Information](https://www.ncbi.nlm.nih.gov
 
 <p align="center">
 <kbd>
-  <img src="SequencingData.png"/>
+  <img src="Images/Images/SequencingData.png"/>
  </kbd>
  </p>
  <p align="center"
@@ -51,7 +51,7 @@ These different databases are all linked together by the [Entrez](https://en.wik
 
 <p align="center">
 <kbd>
-  <img src="EntrezExample.png"/>
+  <img src="Images/EntrezExample.png"/>
 </kbd>
 </p>
 
@@ -69,7 +69,7 @@ First, navigate to [Entrez](https://www.ncbi.nlm.nih.gov/gquery/) and search for
 
 <p align="center">
 <kbd>
-  <img src="EntrezSearchExampleOne.png"/>
+  <img src="Images/EntrezSearchExampleOne.png"/>
 </kbd>
 </p>
 
@@ -80,7 +80,7 @@ Next, look for the entry in the query results that is for the gene found in *Hom
 
 <p align="center">
 <kbd>
-  <img src="EntrezSearchExampleTwo.png"/>
+  <img src="Images/EntrezSearchExampleTwo.png"/>
 </kbd>
 </p>
 
@@ -89,7 +89,7 @@ This page returns a large amount of information about the **POMC** gene.
 
 <p align="center">
 <kbd>
-  <img src="EntrezSearchExampleThree.png"/>
+  <img src="Images/EntrezSearchExampleThree.png"/>
 </kbd>
 </p>
 
@@ -125,7 +125,7 @@ However, the most popular tool by far is BLAST (and its many variations). What B
 
 <p align="center">
 <kbd>
-  <img src="BlastLogo.png"/>
+  <img src="Images/BlastLogo.png"/>
 </kbd>
 </p>
 
@@ -145,7 +145,7 @@ BLAST, or the Basic Local Alignment Search Tool, is an algorithmic tool for comp
 
 <p align="center">
 <kbd>
-  <img src="Tools.png"/>
+  <img src="Images/Tools.png"/>
 </kbd>
 </p>
 <p align="center"
@@ -189,7 +189,7 @@ In order to "score" a match, a substitution matrix needs to be created so that w
 
 <p align="center">
 <kbd>
-  <img src="BLOSUM62.png"/>
+  <img src="Images/BLOSUM62.png"/>
 </kbd>
 </p>
 <p align="center"
@@ -242,7 +242,7 @@ If the queried sequence matches the library sequence and is deemed to be statist
 
 <p align="center">
 <kbd>
-  <img src="BLASTOutput.png"/>
+  <img src="Images/BLASTOutput.png"/>
 </kbd>
 </p>
 
@@ -298,7 +298,7 @@ Below, we are going to work through two different research examples requiring th
 
 <p align="center">
 <kbd>
-  <img src="Papaya.jpg"/>
+  <img src="Images/Papaya.jpg"/>
 </kbd>
 </p>
 <p align="center"
@@ -317,7 +317,7 @@ Navigate to the NCBI website and search for the Papaya ringspot virus coat prote
 
 <p align="center">
 <kbd>g
-  <img src="ExampleOne_One.png">
+  <img src="Images/ExampleOne_One.png">
 </kbd>
 </p>
 
@@ -325,7 +325,7 @@ From the results list, navigate to the **Gene** database.
 
 <p align="center">
 <kbd>g
-  <img src="ExampleOne_Two.png">
+  <img src="Images/ExampleOne_Two.png">
 </kbd>
 </p>
 
@@ -333,7 +333,7 @@ You are now looking at a lot of information related to the PRSVgp1 gene in the P
 
 <p align="center">
 <kbd>g
-  <img src="ExampleOne_Three.png">
+  <img src="Images/ExampleOne_Three.png">
 </kbd>
 </p>
 
@@ -341,7 +341,7 @@ This will bring you to the NCBI reference sequence page.
 
 <p align="center">
 <kbd>g
-  <img src="ExampleOne_Four.png">
+  <img src="Images/ExampleOne_Four.png">
 </kbd>
 </p>
 
@@ -349,7 +349,7 @@ On the right hand side of the screen, beneath the section *Analyze this sequence
 
 <p align="center">
 <kbd>g
-  <img src="ExampleOne_Five.png">
+  <img src="Images/ExampleOne_Five.png">
 </kbd>
 </p>
 
@@ -359,7 +359,7 @@ From the top toolbar, click `tblastn`.
 
 <p align="center">
 <kbd>g
-  <img src="ExampleOne_Six.png">
+  <img src="Images/ExampleOne_Six.png">
 </kbd>
 </p>
 
@@ -367,7 +367,7 @@ You'll see that the NCBI already imported the accession number from the PRSV coa
 
 <p align="center">
 <kbd>g
-  <img src="ExampleOne_Seven.png">
+  <img src="Images/ExampleOne_Seven.png">
 </kbd>
 </p>
 
@@ -377,7 +377,7 @@ When it's completed, you'll see your BLAST results.
 
 <p align="center">
 <kbd>g
-  <img src="ExampleOne_Eight.png">
+  <img src="Images/ExampleOne_Eight.png">
 </kbd>
 </p>
 
@@ -389,7 +389,7 @@ Take your time to examine the results page. An area of particular importance is 
 
 <p align="center">
 <kbd>
-  <img src="ExampleTwo_One.png"/>
+  <img src="Images/ExampleTwo_One.png"/>
 </kbd>
 </p>
 <p align="center"
@@ -402,7 +402,7 @@ There are a multitude of technologies for sequencing DNA, with the list growing 
 
 <p align="center">
 <kbd>
-  <img src="ExampleTwo_Two.png"/>
+  <img src="Images/ExampleTwo_Two.png"/>
 </kbd>
 </p>
 
@@ -418,7 +418,7 @@ First, navigate to the NCBI website and search for Wolbachia. Click **Assembly**
 
 <p align="center">
 <kbd>
-  <img src="ExampleTwo_Three.png"/>
+  <img src="Images/ExampleTwo_Three.png"/>
 </kbd>
 </p>
 
@@ -426,7 +426,7 @@ A list of different *Wolbachia* genome assemblies will be returned. Click the fi
 
 <p align="center">
 <kbd>
-  <img src="ExampleTwo_Four.png"/>
+  <img src="Images/ExampleTwo_Four.png"/>
 </kbd>
 </p>
 
@@ -438,7 +438,7 @@ When you are there, click **Trace Blast**
 
 <p align="center">
 <kbd>
-  <img src="ExampleTwo_Six.png"/>
+  <img src="Images/ExampleTwo_Six.png"/>
 </kbd>
 </p>
 
@@ -446,7 +446,7 @@ In the **Enter Query Sequence** section, input the RefSeq sequence ID from above
 
 <p align="center">
 <kbd>
-  <img src="ExampleTwo_Seven.png"/>
+  <img src="Images/ExampleTwo_Seven.png"/>
 </kbd>
 </p>
 
@@ -454,7 +454,7 @@ When this completes, your results should look something like this:
 
 <p align="center">
 <kbd>
-  <img src="ExampleTwo_Eight.png"/>
+  <img src="Images/ExampleTwo_Eight.png"/>
 </kbd>
 </p>
 
@@ -468,7 +468,7 @@ Effectively, what you've just done is gone "dumpster diving" in the *Drosophila*
 
 <p align="center">
 <kbd>
-  <img src="Promoter_One.png"/>
+  <img src="Images/Promoter_One.png"/>
 </kbd>
 </p>
 
@@ -498,7 +498,7 @@ Next, go to the [Primer3](http://biotools.umassmed.edu/bioapps/primer3_www.cgi) 
 
 <p align="center">
 <kbd>
-  <img src="Promoter_Two.png"/>
+  <img src="Images/Promoter_Two.png"/>
 </kbd>
 </p>
 
@@ -506,7 +506,7 @@ This will return a list of primers. Choose the primers from the top and copy and
 
 <p align="center">
 <kbd>
-  <img src="Promoter_Three.png"/>
+  <img src="Images/Promoter_Three.png"/>
 </kbd>
 </p>
 
@@ -516,7 +516,7 @@ Next, return to [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&
 
 <p align="center">
 <kbd>
-  <img src="Promoter_Four.png"/>
+  <img src="Images/Promoter_Four.png"/>
 </kbd>
 </p>
 
@@ -524,7 +524,7 @@ Voila! You have found your sequence.
 
 <p align="center">
 <kbd>
-  <img src="Promoter_Five.png"/>
+  <img src="Images/Promoter_Five.png"/>
 </kbd>
 </p>
 
