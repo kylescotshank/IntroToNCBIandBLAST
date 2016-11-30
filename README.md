@@ -5,6 +5,7 @@ This module is a short introduction to the [National Center for Biotechnology In
 An outline for the module is below:
 
   * [What is the NCBI?](#what-is-the-ncbi)
+    * [Challenge #1](#challenge-1)
   * [What is BLAST?](#what-is-blast)
   * [How does BLAST work?](#how-does-blast-work)
   * [For what purposes would you use BLAST?](#for-what-purposes-would-you-use-blast)
@@ -110,7 +111,7 @@ From James Watson, Nobel laureate and co-discoverer of the structure of DNA:
 
 ***
 
-##CHALLENGE
+##CHALLENGE 1
 
 Search the NCBI databases for the gene *TAS2R38*. In the *Gene* database, find the search results for this gene in *Homo sapiens*. Examine the results, and answer the following questions:
 
