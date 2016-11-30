@@ -11,10 +11,10 @@ An outline for the module is below:
   * [For what purposes would you use BLAST?](#for-what-purposes-would-you-use-blast)
   * [Let's BLAST something!](#lets-blast-something)
     * [Example One: Find a transgene in the papaya genome](#find-a-transgene-in-the-papaya-genome)
-      *[Challenge #2](#challenge-2)
+      * [Challenge #2](#challenge-2)
     * [Example Two: Finding novel sequences](#finding-novel-sequences) 
   * [Designing and validating primers with BLAST](#designing-and-validating-primers-with-blast)
-    *[Challenge #3](#challenge-3)
+    * [Challenge #3](#challenge-3)
 
 ***
 
