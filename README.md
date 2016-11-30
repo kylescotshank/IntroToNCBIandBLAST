@@ -14,6 +14,7 @@ An outline for the module is below:
       *[Challenge #2](#challenge-2)
     * [Example Two: Finding novel sequences](#finding-novel-sequences) 
   * [Designing and validating primers with BLAST](#designing-and-validating-primers-with-blast)
+    *[Challenge #3](#challenge-3)
 
 ***
 
@@ -555,3 +556,16 @@ Voila! You have found your sequence. Examining the subject sequence alignment co
 </p>
 
 As you can see, this is a different strain of genetically modified Papaya - a strain called *SunUp*. 
+
+***
+
+##CHALLENGE 3
+
+Return to the NCBI mainpage and search for *Carica papaya* SunUp. Click *Assembly* and use the results to answer the following questions:
+
+  1. What is the total number of chromosomes and plasmids in this genome assembly?
+  2. Who submitted this assembly, and when?
+
+***
+
+
