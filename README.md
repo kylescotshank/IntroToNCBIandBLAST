@@ -119,7 +119,7 @@ Search the NCBI databases for the gene *TAS2R38*. In the *Gene* database, find t
   2. How many citations for this gene are in PubMed?
   3. Reading information on this page, what do you think this gene's function is?
 
-**
+***
 
 #### NCBI tools
 
