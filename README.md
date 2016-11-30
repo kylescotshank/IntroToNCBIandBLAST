@@ -60,7 +60,7 @@ As shown above: the query returned a rich selection of results that could be use
 
 ***
 
-## CHALLENGE
+## EXAMPLE
 
 Search for the gene symbol **POMC**, look up information about the gene in *Homo sapiens*, and report three known phenotypic variations associated with this particular gene. 
 
@@ -109,6 +109,16 @@ From James Watson, Nobel laureate and co-discoverer of the structure of DNA:
 
 
 ***
+
+##CHALLENGE
+
+Search the NCBI databases for the gene *TAS2R38*. In the *Gene* database, find the search results for this gene in *Homo sapiens*. Examine the results, and answer the following questions:
+
+  1. What is the official full name for this gene?
+  2. How many citations for this gene are in PubMed?
+  3. Reading information on this page, what do you think this gene's function is?
+
+**
 
 #### NCBI tools
 
@@ -257,7 +267,7 @@ If the query sequence aligns well to the library sequence and is deemed to be st
 
 ***
 
-##CHALLENGE
+##EXAMPLE
 
 Using BLOSUM62, find the similarity score of the following sequences:
 
