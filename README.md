@@ -56,7 +56,7 @@ These different databases are all linked together by the [Entrez](https://en.wik
 </kbd>
 </p>
 
-As shown above: the query returned a rich selection of results that could be used to answer a variety of different scientific questions. If we were interested in DNA or RNA sequences, we would find them in the **Nucleotide* database. If we were looking for human variations of the gene, we'd be able to find this in the **SNP** (Single Nucleotide Polymorphisms) database, and so on. This kind of information retrieval is only possible because of the unified structures that exist between the databases and the Entrez search engine. 
+As shown above: the query returned a rich selection of results that could be used to answer a variety of different scientific questions. If we were interested in DNA or RNA sequences, we would find them in the **Nucleotide** database. If we were looking for human variations of the gene, we'd be able to find this in the **SNP** (Single Nucleotide Polymorphisms) database, and so on. This kind of information retrieval is only possible because of the unified structures that exist between the databases and the Entrez search engine. 
 
 ***
 
