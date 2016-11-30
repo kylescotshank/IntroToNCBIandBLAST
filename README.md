@@ -406,8 +406,8 @@ Take your time to examine the results page. An area of particular importance is 
 
 ##CHALLENGE 2
 
-  1. What is the score, in bits, of the first alignment returned (Should be: "Carica papaya DNA, contig: p981&p982amplicon, strain: PRSV-YK")
-  2. What are the starting and ending coordinates of the subject strain of the alignment above?
+  1. What is the score, in bits, of the first alignment returned (The Sequence ID is LC073703.1)
+  2. What are the starting and ending coordinates of the subject sequence of the alignment above?
 
 ***
 
@@ -489,7 +489,13 @@ Take a few moments to examine this page, including the **Alignments** section. Y
 
 Effectively, what you've just done is gone "dumpster diving" in the *Drosophila* genome. When many of these biological samples were created via shotgun sequencing, a lot of genetic material from *Wolbachia* were included in the libraries that were sequenced due to latent infections. This material can then be recovered in the raw data, yet usually (hopefully) doesn't end up being falsely included in the actual genome assembly. By searching the Trace archive, we were able to see just how common it is for this to occur. In fact, it's possible to recover an entire *Wolbachia* genome just from sequencing data for *Drosophila*!
 
+##CHALLENGE 3
+
+  1. What is the score, in bits, of the first alignment returned (The Sequence ID is ti:2167509153)
+  2. What is the overall length of the subject sequence? 
+
 ***
+
 
 ##Designing and validating primers with BLAST
 
@@ -559,7 +565,7 @@ As you can see, this is a different strain of genetically modified Papaya - a st
 
 ***
 
-##CHALLENGE 3
+##CHALLENGE 4
 
 Return to the NCBI mainpage and search for *Carica papaya* SunUp. Click *Assembly* and use the results to answer the following questions:
 
